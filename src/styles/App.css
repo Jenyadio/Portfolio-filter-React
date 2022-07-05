@@ -1,0 +1,31 @@
+.portfolio {
+  margin: 0 auto;
+  width: 800px;
+}
+
+.projects {
+  margin-top: 10px;
+  width: 800px;
+  column-count: 3;
+}
+
+.project-img {
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.button {
+  border: 1px solid black;
+  border-radius: 5px;
+  height: 25px;
+}
+
+.btn-selected {
+  color: antiquewhite;
+  background-color: darkgray;
+}
+
+.button:nth-child(n+2),
+.btn-selected:nth-child(n+2) {
+  margin-left: 3px;
+}
